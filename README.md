@@ -57,7 +57,7 @@ prediction = model.predict(tfidf.transform([preprocess(comment)]))
 print("Toxic" if prediction[0] == 1 else "Non-toxic")
 
 # Results
- ![Final result]("C:\Users\USER\Pictures\Screenshots\Screenshot 2026-11-06 235452.png")
+ ![Final result](Screenshot 2026-11-06 235452.png)
 
 # Repository Structure
 ├── data/                  # Dataset files

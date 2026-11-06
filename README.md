@@ -1,5 +1,3 @@
-# toxic-and-non-toxic-comment-prediction-model-
-A model that checks comment on different social media which on is toxic or not using classification model
 
 # Toxic vs Non-Toxic Comment Classification
 
@@ -59,27 +57,8 @@ prediction = model.predict(tfidf.transform([preprocess(comment)]))
 print("Toxic" if prediction[0] == 1 else "Non-toxic")
 
 # Results
-Model
-Accuracy
-Precision
-Recall
-F1-score
-Logistic Regression
-fill in
-fill in
-fill in
-fill in
-Naive Bayes
-fill in
-fill in
-fill in
-fill in
-SVM
-fill in
-fill in
-fill in
-fill in
-Replace with your actual results and add the confusion matrix image.
+ ![Final result]("C:\Users\USER\Pictures\Screenshots\Screenshot 2026-11-06 235452.png")
+
 # Repository Structure
 ├── data/                  # Dataset files
 ├── notebooks/             # Jupyter notebooks
